@@ -1,0 +1,17 @@
+import React from 'react'
+
+const Filter = ({value, onChange}) => {
+    return(
+        <div>
+            <form>
+              <div>
+              find countries <input value={value} onChange={onChange}>
+                    </input>
+              </div>
+                    
+            </form>
+        </div>
+    )
+}
+
+export default Filter;
