@@ -6,7 +6,6 @@ const Countries = ({results, search}) => {
   if (search === '') {
     return <p></p>
   }
-  
   if (results.length >= 10) {
     return <p>Too many matches, please specify more</p> 
   } 
